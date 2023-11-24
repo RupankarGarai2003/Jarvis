@@ -1,0 +1,84 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "hey", "wake up", "zara", "are you there?"
+
+            ],
+            "responses": ["Hello sir", "how are you sir.", "Always for you sir!", "Here's your assistant"
+
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": ["bye", "good bye", "see you later", "sleep", "exit"
+
+            ],
+            "responses": ["Bye", "I am going", "It will be nice to meet you again", "See you later"
+
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": ["how are you", "how you are", "are you fine?", "are you good", "are you alright"
+
+            ],
+            "responses": ["fine", "Perfect", "Cool", "are you fine ? i am fine."
+
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": ["your name", "what is your name", "who are you", "what are you"
+
+            ],
+            "responses": ["I Am ZaraX", "My Name Is ZaraX", "Myself ZaraX", "An AI Assistant", "Here's your assistant ZaraX"
+
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": ["the time", "what's the time", "tell me the time", "time kitna huya", "time", "time batao"
+
+            ],
+            "responses": ["time"
+
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": ["the date", "what's the date", "tell me the date", "date konsa hai", "date", "date bolo", "aj ka date kaya hai"
+
+            ],
+            "responses": ["date"
+
+            ]
+        },
+        {
+            "tag": "day",
+            "patterns": ["the day", "what's the day", "tell me the name of the day", "din konsa hai", "din bolo", "aj ka din konsa hai", "today"
+
+            ],
+            "responses": ["day"
+
+            ]
+        },
+        {
+            "tag": "wikipedia",
+            "patterns": ["who is", "tell me about", "what is", "wikipedia", "according to wikipedia"
+
+            ],
+            "responses": ["wikipedia"
+
+            ]
+        },
+        {
+            "tag": "google",
+            "patterns": ["google search", "search on google", "google"
+
+            ],
+            "responses": ["google"
+
+            ]
+        }
+    ]
+}
